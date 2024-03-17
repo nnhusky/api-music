@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpotifyMusic - Encuentra tu música</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradiente de fondo */
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .navbar {
+      background-color: #2c3e50; /* Color oscuro para la barra de navegación */
+      padding: 10px 0;
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .search-container {
+      background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      margin: 30px auto;
+      padding: 20px;
+      width: 80%;
+    }
+    .search-box {
+      margin: 20px 0;
+    }
+    .search-box input[type="text"] {
+      border: 2px solid #fff;
+      border-radius: 4px;
+      padding: 10px;
+      width: 70%;
+    }
+    .search-box input[type="submit"] {
+      background-color: #16a085;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      padding: 10px 20px;
+      text-transform: uppercase;
+    }
+    footer {
+      background-color: #2c3e50;
+      bottom: 0;
+      color: #fff;
+      padding: 10px 0;
+      position: absolute;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <h1>SpotifyMusic</h1>
+</div>
+
+<div class="search-container">
+  <h2>Encuentra tu música favorita</h2>
+  <div class="search-box">
+    <input type="text" name="artist" id="artist" placeholder="Artistas, canciones, letras y más" />
+    <input type="submit" value="Buscar mi canción" />
+  </div>
+</div>
+
+<footer>
+  <p>zea aponte nicolas</p>
+</footer>
+
+</body>
+</html>
